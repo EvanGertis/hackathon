@@ -38,13 +38,13 @@
                       </div>  
                       
                       <div>
-                        Key Term 1: <input id="el1" type="image" value="">
+                        Key Term 1: <input id="el1" type="text" value="">
                       </div>
                       <div>
                         Description 1: <input id="dl1" type="text" value=""> 
                       </div>
                       <div>
-                        Key Term 2: <input id="el2" type="image" value=""> 
+                        Key Term 2: <input id="el2" type="text" value=""> 
                       </div>
                       <div>
                         Description 2: <input id="dl2" type="text" value=""> 

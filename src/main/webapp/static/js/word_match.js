@@ -111,15 +111,17 @@
 
 
         for (let i = numberOfInputs; i < elArray.length+numberOfInputs; i++){
-            html += '\t\t\t\t\t\t<div id=\'s';
+            html += '\t\t\t\t\t\t<img id=\'s';
 	        id   = i-numberOfInputs+1;//elArray[i-numberOfInputs].replace ( /[^\d.]/g, '' );
             console.log("id "+id)
 	        html += id;
-	        html +='\' class=\'draggyBox-small ui-draggable\'>\n';
+	        html +='\' class=\'draggyBox-small ui-draggable\'\n';
 	        html += '\t\t\t\t\t\t\t'
-	        html += elArray[i-numberOfInputs]
+	        html += 'src=\''
+            html += elArray[i-numberOfInputs]
+            html += '\''    
 	        html += '\n';
-	        html +='\t\t\t\t\t\t</div>\n';
+	        html +='\t\t\t\t\t\t>\n';
         }
         elArray = shuffleKeys(elArray);
         console.log("The value of the dlArray is")
