@@ -118,6 +118,7 @@
 	        html +='\' class=\'draggyBox-small ui-draggable\'\n';
 	        html += '\t\t\t\t\t\t\t'
 	        html += 'src=\''
+            html += '/static/images/'
             html += elArray[i-numberOfInputs]
             html += '\''    
 	        html += '\n';
