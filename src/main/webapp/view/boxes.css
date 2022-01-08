@@ -683,6 +683,27 @@
     height: 100vh;
 }
 
+#button-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 1rem;
+    width: 100rem;
+}
+
+#showAnswer {
+    margin-right: 1rem;
+    width: 10rem;
+    height: 2.5rem;
+}
+
+#resetButton {
+    margin: auto;
+    width: 10rem;
+    height: 2.5rem;
+}
+
 #maincontentstyle {
     background: white repeat-x;
     margin-left: auto;
@@ -695,9 +716,8 @@
     padding-bottom: 11.15px;
     border-left: 1px solid;
     border-bottom: 1px solid;
-    width: 40rem;
-    height: 20rem;
-    /*    max-width: 600px; 10/4/2015 auto extended to both sides horizontally*/
+    width: fit-content;
+    height: fit-content;
 }
 
 #title {
